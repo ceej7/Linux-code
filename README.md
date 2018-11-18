@@ -1,2 +1,2 @@
 # Linux-code
-Simple traing on linux code, bash and perl
+Simple bash and perl coding exec.
