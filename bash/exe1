@@ -1,0 +1,27 @@
+#!/bin/dash
+file=$1
+if [ "${file##*.}" = "tar" ]
+then
+	if [ ! -e ${file%.*} ]
+	then
+		tar -xf $1
+	fi
+elif [ -f $1 ]
+then
+	cat $1
+elif [ -d $1 ]
+then
+	if [ ! -e $1.tar ]
+	then
+		tar -cf $1.tar $1
+	fi
+elif [ ! -e $1 ]
+then
+	echo "error:$1 doesnt exit"
+	exit 2
+else
+	echo "error:unknown input"
+	exit 2
+fi
+exit
+

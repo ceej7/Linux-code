@@ -1,0 +1,22 @@
+#!/bin/bash
+if [ ! -d $1 ]&&[ ! -d $2 ]
+then
+	echo "error"
+	exit 1;
+else
+	
+	for file in `ls $2`
+	do
+		if [ -e $1/$file ]
+		then
+			if [ $2/$file -nt $1/$file ]
+			then 
+				cp -fR $2/$file $1
+				echo "$file in $2 is newer than that in $1,moved" >> ./Record
+			fi
+		else
+			cp -R $2/$file $1
+			echo "$file in $2 is not found in $1,moved" >> ./Record
+		fi
+	done 
+fi

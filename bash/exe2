@@ -1,0 +1,29 @@
+#!/bin/bash
+temp=0
+sum=0
+judgenum(){
+tempp=`echo "scale=2;$1+0"|bc`
+if [ "$tempp" = "$1" ]
+then
+	return 0
+else
+	return 1
+fi
+}
+
+while [ $temp -eq 0 ]
+do
+	echo "Input a number "	
+	read  number
+	if [ "$number" = "end" ] || [ "$number" = "END" ]
+	then
+		temp=1
+	elif judgenum $number
+	then
+		sum=`echo "scale=2;$sum+$number" | bc`
+	else
+		echo "error:invalid input"
+	fi
+done
+echo "$sum"
+exit

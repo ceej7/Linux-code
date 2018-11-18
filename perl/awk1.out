@@ -1,0 +1,81 @@
+                                    List of Users
+----------------------------------------------------------------------------------------------------
+UserName            GroupName                               Shell Path                              
+root                root                                    /root:/bin/bash                     
+daemon              daemon                                  /usr/sbin:/usr/sbin/nologin             
+bin                 bin                                     /bin:/usr/sbin/nologin             
+sys                 sys                                     /dev:/usr/sbin/nologin             
+sync                sync                                    /bin:/bin/sync                     
+games               games                                   /usr/games:/usr/sbin/nologin             
+man                 man                                     /var/cache/man:/usr/sbin/nologin             
+lp                  lp                                      /var/spool/lpd:/usr/sbin/nologin             
+mail                mail                                    /var/mail:/usr/sbin/nologin             
+news                news                                    /var/spool/news:/usr/sbin/nologin             
+uucp                uucp                                    /var/spool/uucp:/usr/sbin/nologin             
+proxy               proxy                                   /bin:/usr/sbin/nologin             
+www-data            www-data                                /var/www:/usr/sbin/nologin             
+backup              backup                                  /var/backups:/usr/sbin/nologin             
+list                Mailing List Manager                    /var/list:/usr/sbin/nologin             
+irc                 ircd                                    /var/run/ircd:/usr/sbin/nologin             
+gnats               Gnats Bug-Reporting System (admin)      /var/lib/gnats:/usr/sbin/nologin             
+nobody              nobody                                  /nonexistent:/usr/sbin/nologin             
+systemd-timesync    systemd Time Synchronization,,,         /run/systemd:/bin/false                    
+systemd-network     systemd Network Management,,,           /run/systemd/netif:/bin/false                    
+systemd-resolve     systemd Resolver,,,                     /run/systemd/resolve:/bin/false                    
+systemd-bus-proxy   systemd Bus Proxy,,,                    /run/systemd:/bin/false                    
+syslog                                                      /home/syslog:/bin/false                    
+_apt                                                        /nonexistent:/bin/false                    
+messagebus                                                  /var/run/dbus:/bin/false                    
+uuidd                                                       /run/uuidd:/bin/false                    
+lightdm             Light Display Manager                   /var/lib/lightdm:/bin/false                    
+whoopsie                                                    /nonexistent:/bin/false                    
+avahi-autoipd       Avahi autoip daemon,,,                  /var/lib/avahi-autoipd:/bin/false                    
+avahi               Avahi mDNS daemon,,,                    /var/run/avahi-daemon:/bin/false                    
+dnsmasq             dnsmasq,,,                              /var/lib/misc:/bin/false                    
+colord              colord colour management daemon,,,      /var/lib/colord:/bin/false                    
+speech-dispatcher   Speech Dispatcher,,,                    /var/run/speech-dispatcher:/bin/false                    
+hplip               HPLIP system user,,,                    /var/run/hplip:/bin/false                    
+kernoops            Kernel Oops Tracking Daemon,,,          /:/bin/false                    
+pulse               PulseAudio daemon,,,                    /var/run/pulse:/bin/false                    
+rtkit               RealtimeKit,,,                          /proc:/bin/false                    
+saned                                                       /var/lib/saned:/bin/false                    
+usbmux              usbmux daemon,,,                        /var/lib/usbmux:/bin/false                    
+ceej                Ceej,,,                                 /home/ceej:/bin/bash                     
+----------------------------------------------------------------------------------------------------
+/bin:/bin/sync                           appears  1 times
+/nonexistent:/bin/false                  appears  2 times
+/nonexistent:/usr/sbin/nologin           appears  1 times
+/proc:/bin/false                         appears  1 times
+/run/systemd/resolve:/bin/false          appears  1 times
+/run/systemd/netif:/bin/false            appears  1 times
+/var/run/speech-dispatcher:/bin/false    appears  1 times
+/run/systemd:/bin/false                  appears  2 times
+/var/lib/avahi-autoipd:/bin/false        appears  1 times
+/run/uuidd:/bin/false                    appears  1 times
+/:/bin/false                             appears  1 times
+/var/run/avahi-daemon:/bin/false         appears  1 times
+/usr/games:/usr/sbin/nologin             appears  1 times
+/usr/sbin:/usr/sbin/nologin              appears  1 times
+/dev:/usr/sbin/nologin                   appears  1 times
+/var/lib/lightdm:/bin/false              appears  1 times
+/var/lib/usbmux:/bin/false               appears  1 times
+/var/lib/colord:/bin/false               appears  1 times
+/var/lib/saned:/bin/false                appears  1 times
+/var/run/pulse:/bin/false                appears  1 times
+/var/run/hplip:/bin/false                appears  1 times
+/var/lib/misc:/bin/false                 appears  1 times
+/var/run/dbus:/bin/false                 appears  1 times
+/bin:/usr/sbin/nologin                   appears  2 times
+/var/spool/uucp:/usr/sbin/nologin        appears  1 times
+/var/spool/news:/usr/sbin/nologin        appears  1 times
+/var/lib/gnats:/usr/sbin/nologin         appears  1 times
+/var/spool/lpd:/usr/sbin/nologin         appears  1 times
+/var/cache/man:/usr/sbin/nologin         appears  1 times
+/var/run/ircd:/usr/sbin/nologin          appears  1 times
+/var/backups:/usr/sbin/nologin           appears  1 times
+/var/list:/usr/sbin/nologin              appears  1 times
+/var/mail:/usr/sbin/nologin              appears  1 times
+/var/www:/usr/sbin/nologin               appears  1 times
+/home/ceej:/bin/bash                     appears  1 times
+/home/syslog:/bin/false                  appears  1 times
+/root:/bin/bash                          appears  1 times
